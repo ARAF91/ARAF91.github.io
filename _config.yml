@@ -1,15 +1,15 @@
 # Site settings
-title: ARAF RAHMAN 
+title: ARAF RAHMAN BLOG
 header-img: img/home-bg.png
-email: araft50@yahoo.com
-copyright_name: ARAF91
+email: araf91@gmail.com
+copyright_name: araf91
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Personal Blog
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
-github_username:  ARAF91
-learn_profile: ARAF91
-email_username: araft50@yahoo.com
+github_username:  araf91
+learn_profile: araf91
+email_username: araf91@gmail.com
 
 # Build settings
 markdown: kramdown
