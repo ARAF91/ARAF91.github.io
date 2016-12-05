@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Obejct Orientation Ruby"
-date:   2016-12-05 02:43:17 +0000
+date:   2016-12-04 21:43:17 -0500
 ---
 
 
