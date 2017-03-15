@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Obejct Orientation Ruby"
+title:  "Object Orientation Ruby"
 date:   2016-12-04 21:43:17 -0500
 ---
 
 
-The content of your blog post goes here.In order to write complex programs, one must understand the importance of object Orientation as an essential part of programming. It helps me as a programmer to create objects and have them interact with each other. During my training, I have been working heavily with JavaScript and creating objects based off of a prototype. A good example is a prototype of a song within an album. Let's look at the variety of properties such as a song title, artist, genre, composer, and how long the song is.  
+In order to write complex programs, one must understand the importance of object Orientation as an essential part of programming. It helps me as a programmer to create objects and have them interact with each other. During my training, I have been working heavily with JavaScript and creating objects based off of a prototype. A good example is a prototype of a song within an album. Let's look at the variety of properties such as a song title, artist, genre, composer, and how long the song is.  
  
 Using a constructor function helps define this prototype. The constructor function defines the different properties of the prototype. 
  
@@ -55,7 +55,9 @@ new_post.user = araf
  
 We can also create a user that has many posts, by adding to the User class. We can create an array that holds a list of posts inside of the User initialize class. In the add_post method, we can create a new post object, and add it to the posts array. We can then set the user property of this new post to the current User object. 
  
-class User 
+```
+
+```class User 
   
   attr_accessor :name, :email 
     
