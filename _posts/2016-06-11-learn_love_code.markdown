@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "//LEARN. LOVE. CODE.	"
-date:   2016-06-11 16:27:31 +0000
+date:   2016-06-11 12:27:31 -0400
 ---
 
 I often think about how I arrived at this point in my life. I am a young man from south asian country, thriving within the hustle & bustle of New York City and working my way towards a degree in Computer Science. Many people would think that major is the 'sterotype' and but what they don't know is that my current career path is something I have always been passionate about.
