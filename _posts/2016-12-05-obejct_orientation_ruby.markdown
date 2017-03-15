@@ -23,6 +23,7 @@ var maroon_5 = new song(“sugar”, “maroon 5”, “funkpop”, 300);
  
 In addition to learning about JavaScript objects, I learned about object orientation in Ruby. An example of us this is Instagram. A user has to be able to interact with their posts and other users. An Instagram post has one user, and that user has many posts. In my example below, I attach a user object to a post in Ruby.  
  ```
+ 
 class User 
   
  attr_accessor :name, :email 
@@ -35,7 +36,8 @@ class User
 end 
 ```
 Similar to JavaScript, in Ruby, we can create classes with instance variables. The attr_accessor property allows access to instance variables. To associate another class named post, we must set the post's user, using  a :user variable inside the Post class. 
- 
+```
+
 class Post 
   attr_accessor :name, :content, :user 
   
@@ -44,22 +46,23 @@ class Post
     @content = content 
   end  
 end 
- 
+```
 Next steps would be to create new instances of both the post and User classes, then set the user property of the post to equal the new User object. When the new post is a new Post object, we access the properties of the Post class such as its name and content.  
  
 new_post.user returns the object araf; the post now has a user, through the association made.  
- 
+```
+
 new_post = Post.new("New Post", "content") 
  
 araf = User.new("araf") 
   
 new_post.user = araf 
- 
+```
 We can also create a user that has many posts, by adding to the User class. We can create an array that holds a list of posts inside of the User initialize class. In the add_post method, we can create a new post object, and add it to the posts array. We can then set the user property of this new post to the current User object. 
  
 ```
 
-```class User 
+class User 
   
   attr_accessor :name, :email 
     
@@ -80,5 +83,6 @@ We can also create a user that has many posts, by adding to the User class. We c
   end 
   
 end 
+```
  
 Grouping a number of things with similar properties through class creation is easy thanks to Object-orientation. It also allows us to effectively associate objects with one another. 
