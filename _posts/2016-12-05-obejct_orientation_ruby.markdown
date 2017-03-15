@@ -19,7 +19,7 @@ function song(title, artist genre, song_length) {
 ```
 In this constructor, we pass in a number of values and set the properties of that particular object equal to the values we passed in. Let's create a new instance of the constructor below using Maroon 5's hit song "Sugar"  
  
-var maroon_5 = new song(“sugar”, “maroon 5”, “funkpop”, 300); 
+`var maroon_5 = new song(“sugar”, “maroon 5”, “funkpop”, 300);` 
  
 In addition to learning about JavaScript objects, I learned about object orientation in Ruby. An example of us this is Instagram. A user has to be able to interact with their posts and other users. An Instagram post has one user, and that user has many posts. In my example below, I attach a user object to a post in Ruby.  
  ```
