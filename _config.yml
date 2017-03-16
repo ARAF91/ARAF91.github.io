@@ -6,9 +6,9 @@ copyright_name: araf91
 description: > # this means to ignore newlines until "baseurl:"
   My Blog
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username:
 github_username:  araf91
-learn_profile: araf91
+linkedin_username: arafrahman
 email_username: araf91@gmail.com
 
 # Build settings
