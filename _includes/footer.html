@@ -36,9 +36,10 @@
                     {% if site.linkedin_username %}
                     <li>
                         <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                            </span>
+                          <span class="hide-sm">
+                            <i class="fa fa-linkedin-square fa-4" aria-hidden="true"></i>
+                            &nbsp;&nbsp;
+                          </span>
                         </a>
                     </li>
                     {% endif %}
@@ -57,3 +58,4 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
+<!-- font icon -->
