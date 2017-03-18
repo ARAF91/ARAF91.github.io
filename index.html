@@ -15,8 +15,12 @@ layout: page
     </a>
     {{ post.excerpt }}
     {% if post.excerpt != post.content %}
+    <ul class="pager">
+      <li class="previous">
         <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+      </li>
     {% endif %}
+  </ul>
 </div>
 <hr>
 {% endfor %}
