@@ -2,13 +2,12 @@
 title: ARAF RAHMAN
 header-img: img/home-bg.png
 email: araf91@gmail.com
-copyright_name: araf91
+copyright_name: arafrahman
 description: > # this means to ignore newlines until "baseurl:"
   My Blog
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username:
 github_username:  araf91
-linkedin_username:  arafrahman
 email_username: araf91@gmail.com
 
 # Build settings
