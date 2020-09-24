@@ -1,12 +1,12 @@
 # Site settings
-title: ARAF RAHMAN
+title: Araf Rahman
 header-img: img/home-bg.png
 email: araf91@gmail.com
 copyright_name: araf-rahman
 description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username:
+twitter_username: ArafKingman
 github_username:  araf-rahman
 learn_profile: araf91
 email_username: araf91@gmail.com
